@@ -1,0 +1,139 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.header {
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.menu-title {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submenu {
+    margin-top: 10px;
+}
+
+.submenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    margin-left: 15px;
+}
+
+.submenu a:hover {
+    background-color: #555;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.back-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Barra de navegación debajo del header */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #e0e0e0;
+    padding: 10px 0;
+}
+
+.nav-link {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
